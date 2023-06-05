@@ -1,0 +1,11 @@
+@URL = http://localhost:8000
+
+### Product List API
+GET {{URL}}/api/products/list?size=10&page=10
+Content-Type: application/json
+
+
+### Product List API
+GET {{URL}}/api/products/1
+Content-Type: application/json
+
